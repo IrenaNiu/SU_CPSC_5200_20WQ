@@ -3,7 +3,7 @@
 **Schedule**: Tuesday and Thursday in ENGR 312, 6:00pm to 8:05pm<br/>
 **Instructor**: Michaeljon Miller (michaeljon.miller@outlook.com)<br/>
 **Office hours**: Before class or by appointment (send me email or a text)<br/>
-**Course materials**: [Github](https://github.com/michaeljon/SU_CPSC_5200_19WQ)
+**Course materials**: https://github.com/michaeljon/SU_CPSC_5200_20WQ
 
 ## Catalog Description
 
