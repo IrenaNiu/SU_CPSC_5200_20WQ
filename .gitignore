@@ -1,0 +1,8 @@
+.DS_Store
+Grades.xlsx
+finals/
+submissions/
+.vscode/
+bin/
+obj/
+~*
