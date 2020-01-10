@@ -25,3 +25,45 @@ And this is cool stuff you might think about trying
 - See if you can add a new repository to the database to record People
   - Then expose a read-only API on top of it
   - Use the new repository to validate the people who interact with the timecards
+
+If you want to swap the code over to use 'airline-style' strings for the timecard and line identity, you can use one of the following functions. Note, this just makes the URLs look better and reduces the payload size. Sending a GUID around is kinda ugly if you ask me.
+
+```csharp
+static string HashString(string plaintext, int length)
+{
+    var result = new char[length];
+
+    using (var hasher = new SHA1Managed())
+    {
+        var bytes = Encoding.UTF8.GetBytes(plaintext);
+        var hash = hasher.ComputeHash(bytes);
+
+        for (var i = 0; i < result.Length; i++)
+        {
+            result[i] = chars[hash[i] % chars.Length];
+        }
+    }
+
+    return new string(result);
+}
+
+static string GetUniqueKey(int size)
+{
+    var data = new byte[4 * size];
+    using (var crypto = new RNGCryptoServiceProvider())
+    {
+        crypto.GetBytes(data);
+    }
+
+    var result = new char[size];
+    for (var i = 0; i < size; i++)
+    {
+        var rnd = BitConverter.ToUInt32(data, i * 4);
+        var idx = rnd % chars.Length;
+
+        result[i] = chars[idx];
+    }
+
+    return new string(result);
+}
+```
