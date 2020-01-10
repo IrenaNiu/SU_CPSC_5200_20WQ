@@ -5,4 +5,5 @@ submissions/
 .vscode/
 bin/
 obj/
+timesheets.db
 ~*
