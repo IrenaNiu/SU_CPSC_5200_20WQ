@@ -27,8 +27,8 @@ As a result of that we will not (at this time) have a textbook. I will recommend
 - 07-Jan: **First day of class**
 - 07-Jan: Introduction to Software Architecture and Design
 - 09-Jan: REST as an architectural style
-- 14-Jan: Software Architecture, An opinionated approach
-- 16-Jan: Agile Software Architecture
+- 14-Jan: **no class, weather-related**
+- 16-Jan: Software Architecture, An opinionated approach
 - 21-Jan: Introduction to UML (https://seattleu.zoom.us/j/289933070)
 - 23-Jan: Documenting software architecture and design (**assignment 1 due**)
 - 28-Jan: Microservices, serverless, and distributed systems
