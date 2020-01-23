@@ -20,4 +20,32 @@ namespace restapi.Models
 
         public string Message { get => "No state transition of requested type present in timecard"; }
     }
+
+    public class InvalidIdentityError
+    {
+        public int ErrorCode { get => 103; }
+
+        public string Message { get => "The user account attempting the transition has no rights to perform that transition"; }
+    }
+
+    public class NoEmployeeFound
+    {
+        public int ErrorCode { get => 104; }
+
+        public string Message { get => "Unable to find an employee record"; }
+    }
+
+    public class NoManagerFound
+    {
+        public int ErrorCode { get => 105; }
+
+        public string Message { get => "Unable to find the employee's manager record"; }
+    }
+
+    public class EmployeeInactive
+    {
+        public int ErrorCode { get => 105; }
+
+        public string Message { get => "Caller is not currently an active employee"; }
+    }
 }

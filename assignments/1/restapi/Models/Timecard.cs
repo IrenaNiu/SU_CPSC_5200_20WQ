@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using LiteDB;
 using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 using restapi.Helpers;
 
 namespace restapi.Models
@@ -57,7 +58,7 @@ namespace restapi.Models
         [JsonProperty("documentation")]
         public IList<DocumentLink> Documents { get => GetDocumentLinks(); }
 
-        public string Version { get; set; } = "timecard-0.1";
+        public string Version { get; set; } = "timecard-0.2";
 
         private IList<ActionLink> GetActionLinks()
         {
@@ -117,6 +118,14 @@ namespace restapi.Models
                         Reference = $"/timesheets/{UniqueIdentifier}/approval"
                     });
 
+                    links.Add(new ActionLink()
+                    {
+                        Method = Method.Post,
+                        Type = ContentTypes.Return,
+                        Relationship = ActionRelationship.Return,
+                        Reference = $"/timesheets/{UniqueIdentifier}/returns"
+                    });
+
                     break;
 
                 case TimecardStatus.Approved:
@@ -170,7 +179,7 @@ namespace restapi.Models
 
         public TimecardLine AddLine(DocumentLine documentLine)
         {
-            var annotatedLine = new TimecardLine(documentLine);
+            var annotatedLine = new TimecardLine(UniqueIdentifier, documentLine);
 
             Lines.Add(annotatedLine);
 
@@ -188,6 +197,37 @@ namespace restapi.Models
                 .Any(l => l.UniqueIdentifier == lineId);
         }
 
+        //
+        //
+        //
+        public TimecardLine ReplaceLine(Guid lineId, DocumentLine line)
+        {
+            var targetLine = Lines
+                .FirstOrDefault(l => l.UniqueIdentifier == lineId);
+
+            // decide how to handle the case where there is no line
+            // that matches the lineId
+
+            // this should blindly replace the public portions of
+            // the line, which might leave the line in a bad state
+            return targetLine.Update(line);
+        }
+
+        //
+        //
+        //
+        public TimecardLine ReplaceLine(Guid lineId, JObject line)
+        {
+            var targetLine = Lines
+                .FirstOrDefault(l => l.UniqueIdentifier == lineId);
+
+            // decide how to handle the case where there is no line
+            // that matches the lineId
+
+            // this should blindly replace the public portions of
+            // the line, which might leave the line in a bad state
+            return targetLine.Update(line);
+        }
 
         public override string ToString()
         {
