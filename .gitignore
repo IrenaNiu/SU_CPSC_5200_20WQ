@@ -5,7 +5,7 @@ submissions/
 .vscode/
 bin/
 obj/
-timesheets.db
+*.db
 ~*
 *.user
 *.sln

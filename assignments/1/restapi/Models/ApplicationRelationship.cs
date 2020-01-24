@@ -4,6 +4,8 @@ namespace restapi.Models
     {
         Timesheets,
 
+        Employees,
+
         Version
     }
 }

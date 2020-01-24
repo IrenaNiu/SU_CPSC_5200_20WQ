@@ -1,6 +1,9 @@
 using System;
+using System.Collections.Generic;
 using System.Globalization;
+using LiteDB;
 using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 using restapi.Helpers;
 
 namespace restapi.Models
@@ -9,8 +12,10 @@ namespace restapi.Models
     {
         public TimecardLine() { }
 
-        public TimecardLine(DocumentLine line)
+        public TimecardLine(Guid timecardId, DocumentLine line)
         {
+            TimecardId = timecardId;
+
             Week = line.Week;
             Year = line.Year;
             Day = line.Day;
@@ -40,37 +45,60 @@ namespace restapi.Models
             return this;
         }
 
-        // public TimecardLine Update(JObject line)
-        // {
-        //     // this is a little too brittle for my taste because of the
-        //     // hard-coded strings, but it does work to show that you need
-        //     // to step outside of the type system to make this work
-        //     //
-        //     // and, because this is brittle, it should be wrapped in an
-        //     // appropriate try/catch to throw a 4xx error back
+        //
+        // this is the method that we'll use to update a line piecemeal
+        //
+        public TimecardLine Update(JObject line)
+        {
+            // this is a little too brittle for my taste because of the
+            // hard-coded strings, but it does work to show that you need
+            // to step outside of the type system to make this work
+            //
+            // and, because this is brittle, it should be wrapped in an
+            // appropriate try/catch to throw a 4xx error back
+            //
+            // (more) and, in this particular case there's really nothing
+            // about a line that's optional, so removal semantics don't 
+            // make any sense, maybe if there was some optional "comments"
+            // property then we could look for NULL to delete, and any
+            // non-NULL to update... but then we're stuck with the weird case
+            // where we might want to only send in the differences, in
+            // which case we need a completely different object instead of
+            // a timecard line: one that has the property and includes
+            // a command-like value telling us how to interpret the property
 
-        //     Week = (int)(line.SelectToken("week") ?? Week);
-        //     Year = (int)(line.SelectToken("year") ?? Year);
-        //     var day = line.SelectToken("day");
-        //     Hours = (float)(line.SelectToken("hours") ?? Hours);
-        //     Project = (string)(line.SelectToken("project") ?? Project);
+            Week = (int)(line.SelectToken("week") ?? Week);
+            Year = (int)(line.SelectToken("year") ?? Year);
+            var day = line.SelectToken("day");
+            Hours = (float)(line.SelectToken("hours") ?? Hours);
+            Project = (string)(line.SelectToken("project") ?? Project);
 
-        //     if (day != null)
-        //     {
-        //         Day = (DayOfWeek)Enum.Parse(typeof(DayOfWeek), (string)day, true);
-        //     }
+            if (day != null)
+            {
+                Day = (DayOfWeek)Enum.Parse(typeof(DayOfWeek), (string)day, true);
+            }
 
-        //     // if the date components change, let's update
-        //     SetupPeriodValues();
+            // if the date components change, let's update
+            SetupPeriodValues();
 
-        //     return this;
-        // }
+            return this;
+        }
+
+        [BsonIgnore]
+        [JsonProperty("_self")]
+        public string Self { get => $"/timesheets/{TimecardId}/lines/{UniqueIdentifier}"; }
 
         [JsonIgnore]
         public DateTime workDate { get; set; }
 
         [JsonIgnore]
         public DateTime periodFrom { get; set; }
+
+        [JsonIgnore]
+        public Guid TimecardId { get; set; }
+
+        [JsonIgnore]
+        public TimecardStatus TimecardStatus { get; set; }
 
         [JsonIgnore]
         public DateTime periodTo { get; set; }
@@ -99,6 +127,49 @@ namespace restapi.Models
         public string PeriodTo => periodTo.ToString("yyyy-MM-dd");
 
         public string Version { get; set; } = "line-0.1";
+
+        public IList<ActionLink> Actions { get => GetActionLinks(); }
+
+        private IList<ActionLink> GetActionLinks()
+        {
+            var links = new List<ActionLink>();
+
+            switch (TimecardStatus)
+            {
+                case TimecardStatus.Draft:
+                    links.Add(new ActionLink()
+                    {
+                        Method = Method.Post,
+                        Type = ContentTypes.TimesheetLine,
+                        Relationship = ActionRelationship.ReplaceLine,
+                        Reference = $"/timesheets/{TimecardId}/lines/{UniqueIdentifier}"
+                    });
+
+                    links.Add(new ActionLink()
+                    {
+                        Method = Method.Patch,
+                        Type = ContentTypes.TimesheetLine,
+                        Relationship = ActionRelationship.UpdateLine,
+                        Reference = $"/timesheets/{TimecardId}/lines/{UniqueIdentifier}"
+                    });
+
+                    break;
+
+                case TimecardStatus.Submitted:
+                    // terminal state for lines, nothing possible here
+                    break;
+
+                case TimecardStatus.Approved:
+                    // terminal state for timecards, nothing possible here
+                    break;
+
+                case TimecardStatus.Cancelled:
+                    // terminal state for timecards, nothing possible here
+                    break;
+            }
+
+            return links;
+        }
 
         private static DateTime FirstDateOfWeekISO8601(int year, int weekOfYear)
         {
