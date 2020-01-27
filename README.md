@@ -24,31 +24,62 @@ As a result of that we will not (at this time) have a textbook. I will recommend
 
 ## Important Dates
 
-- 07-Jan: **First day of class**
-- 07-Jan: Introduction to Software Architecture and Design
-- 09-Jan: REST as an architectural style
-- 14-Jan: **no class, weather-related**
-- 16-Jan: Software Architecture, An opinionated approach
-- 21-Jan: Introduction to UML (https://seattleu.zoom.us/j/289933070)
-- 23-Jan: Documenting software architecture and design (**assignment 1 due**)
-- 28-Jan: Microservices, serverless, and distributed systems
-- 30-Jan: Re-design / re-arch (**project arch proposal due**)
+**Week 1**
+[x] 07-Jan: **First day of class**
+[x] 07-Jan: Introduction to Software Architecture and Design
+[x] 09-Jan: REST as an architectural style
 
-- 04-Feb: Patterns of Software Architecture (guest lecture)
-- 06-Feb: Economics of Software Architecture (guest lecture)
-- 11-Feb: **In-class mid-term exam**
-- 13-Feb: Analysis Patterns I / II (**assignment 2 due**)
-- 18-Feb: Design Patterns I
-- 20-Feb: Design Patterns II (2nd team paper due)
-- 26-Feb: API Design
-- 27-Feb: Non-functional requirements
+**Week 2**
+[x] 14-Jan: **no class, weather-related**
+[x] 16-Jan: Software Architecture, An opinionated approach
 
-- 03-Mar: Anti-patterns and Topics in Software Architecture and Design
-- 05-Mar: Pragmatic Programming (**final team paper due**)
-- 10-Mar: **In-class team / individual presentations and demonstrations**
-- 12-Mar: **In-class team / individual presentations and demonstrations**
-- 17-Mar: Course and final exam review
-- 19-Mar: **Final exam due**
+**Week 3**
+[x] 21-Jan: Introduction to UML (https://seattleu.zoom.us/j/289933070)
+[x] 23-Jan: Agile software architecture I
+[x] 23-Jan: **Individual assignment 1 due**
+
+**Week 4**
+[ ] 28-Jan: Agile software architecture II
+[ ] 28-Jan: API Design
+[ ] 28-Jan: **Team project introduction**
+[ ] 30-Jan: Architecture patterns and styles
+
+**Week 5**
+[ ] 04-Feb: Non-functional requirements (_guest lecture_)
+[ ] 06-Feb: Economics of software architecture (_guest lecture_)
+[ ] 06-Feb: **Individual assignment 2 available**
+
+**Week 6**
+[ ] 11-Feb: Documenting software architecture and design
+[ ] 11-Feb: **In-class mid-term exam**
+[ ] 13-Feb: Distributed computing
+[ ] 13-Feb: **Individual assignment 2 due**
+
+**Week 7**
+[ ] 16-Feb: Fowler Analysis Patterns
+[ ] 18-Feb: GoF Design Patterns
+[ ] 18-Feb: **Team project arch proposal due**
+
+**Week 8**
+[ ] 25-Feb: _lecture tbd_
+[ ] 25-Feb: **2nd team paper due**
+[ ] 25-Feb: **Individual assignment 3 available**
+[ ] 27-Feb: TNG Design session
+
+**Week 9**
+[ ] 03-Mar: Anti-patterns and Topics in Software Architecture and Design
+[ ] 05-Mar: Pragmatic Programming
+[ ] 05-Mar: **Final team paper due**
+
+**Week 10**
+[ ] 10-Mar: **In-class team presentations and demonstrations**
+[ ] 12-Mar: **In-class team presentations and demonstrations**
+[ ] 12-Mar: **Individal assignment 3 due**
+
+**Week 11**
+[ ] 17-Mar: Course and final exam review
+[ ] 17-Mar: **In-class individual presentations and demonstrations**
+[ ] 19-Mar: **Final exam due**
 
 ## List of topics / schedule (tentative)
 
@@ -61,7 +92,7 @@ As a result of that we will not (at this time) have a textbook. I will recommend
 
 ## Assignments (tentative)
 
-At this time I expect to have a single team project that we work on throughout the quarter. As such we will be learning tools and techniques that get us to the final "demo day" where we'll do an in-class demo. During the quarter we'll have intermediate "releases" in the form of assignments (think of them as sprints if that helps). You can find the project description [here](project/README.md).
+At this time I expect to have a single team project that we work on throughout the quarter. As such we will be learning tools and techniques that get us to the final "demo day" where we'll do an in-class demo. During the quarter we'll have intermediate "releases" in the form of assignments (think of them as sprints if that helps). You can find the project description [here](addresses/README.md).
 
 You will each, individually, have three assignments for this class. They vary in both complexity and time requirements, but none should incur more than a few hours of work on your part. I have called out their due dates in the course schedule above, but I will release details of the assignments during the quarter.
 
