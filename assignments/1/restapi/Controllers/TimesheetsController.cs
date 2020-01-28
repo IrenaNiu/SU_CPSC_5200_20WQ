@@ -68,7 +68,7 @@ namespace restapi.Controllers
             return timecard;
         }
 
-        [HttpDelete("{id:guid}/delete")]
+        [HttpDelete("{id:guid}")]
         [ProducesResponseType(200)]
         [ProducesResponseType(404)]
         public IActionResult Delete(Guid id)
@@ -436,66 +436,6 @@ namespace restapi.Controllers
                 {
                     return StatusCode(409, new MissingTransitionError() { });
                 }
-            }
-            else
-            {
-                return NotFound();
-            }
-        }
-
-        [HttpPost("{id:guid}/{id2:guid}/replace")]
-        [Produces(ContentTypes.Replace)]
-        [ProducesResponseType(typeof(TimecardLine), 200)]
-        [ProducesResponseType(404)]
-        [ProducesResponseType(typeof(InvalidStateError), 409)]
-        public IActionResult ReplaceLine(Guid id, Guid id2, [FromBody] DocumentLine documentLine)
-        {
-            logger.LogInformation($"Looking for timesheet {id}");
-
-            Timecard timecard = repository.Find(id);
-
-            if (timecard != null)
-            {
-                if (timecard.Status != TimecardStatus.Draft)
-                {
-                    return StatusCode(409, new InvalidStateError() { });
-                }
-
-                var annotatedLine = timecard.ReplaceLine(id2, documentLine);
-
-                repository.Update(timecard);
-
-                return Ok(annotatedLine);
-            }
-            else
-            {
-                return NotFound();
-            }
-        }
-
-        [HttpPost("{id:guid}/{id2:guid}/update")]
-        [Produces(ContentTypes.Update)]
-        [ProducesResponseType(typeof(TimecardLine), 200)]
-        [ProducesResponseType(404)]
-        [ProducesResponseType(typeof(InvalidStateError), 409)]
-        public IActionResult UpdateLine(Guid id, Guid id2, [FromBody] DocumentLine documentLine)
-        {
-            logger.LogInformation($"Looking for timesheet {id}");
-
-            Timecard timecard = repository.Find(id);
-
-            if (timecard != null)
-            {
-                if (timecard.Status != TimecardStatus.Draft)
-                {
-                    return StatusCode(409, new InvalidStateError() { });
-                }
-
-                var annotatedLine = timecard.UpdateLine(id2, documentLine);
-
-                repository.Update(timecard);
-
-                return Ok(annotatedLine);
             }
             else
             {

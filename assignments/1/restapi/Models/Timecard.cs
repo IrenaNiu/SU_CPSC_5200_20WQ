@@ -90,30 +90,6 @@ namespace restapi.Models
                         Reference = $"/timesheets/{UniqueIdentifier}/lines"
                     });
 
-                    links.Add(new ActionLink()
-                    {
-                        Method = Method.Delete,
-                        Type = ContentTypes.Delete,
-                        Relationship = ActionRelationship.Delete,
-                        Reference = $"/timesheets/{UniqueIdentifier}/delete"
-                    });
-
-                    links.Add(new ActionLink()
-                    {
-                        Method = Method.Post,
-                        Type = ContentTypes.Replace,
-                        Relationship = ActionRelationship.Replace,
-                        Reference = $"/timesheets/{UniqueIdentifier}/LineID/replace"
-                    });
-
-                    links.Add(new ActionLink()
-                    {
-                        Method = Method.Patch,
-                        Type = ContentTypes.Update,
-                        Relationship = ActionRelationship.Update,
-                        Reference = $"/timesheets/{UniqueIdentifier}/LineID/update"
-                    });
-
                     break;
 
                 case TimecardStatus.Submitted:
@@ -199,44 +175,6 @@ namespace restapi.Models
             Lines.Add(annotatedLine);
 
             return annotatedLine;
-        }
-
-        public TimecardLine ReplaceLine(Guid lineId, DocumentLine documentLine)
-        {
-            if (HasLine(lineId) == true) 
-            {   
-                TimecardLine x = Lines.First(l => l.UniqueIdentifier == lineId);
-
-                int index = Lines.IndexOf(x);
-
-                Lines.RemoveAt(index);
-
-                var annotatedLine = new TimecardLine(documentLine);
-
-                Lines.Insert(index, annotatedLine);
-
-                return annotatedLine;
-            }
-            else
-            {
-                return null;
-            }           
-        }
-
-        public TimecardLine UpdateLine(Guid lineId, DocumentLine documentLine)
-        {
-            if (HasLine(lineId) == true) 
-            {   
-                TimecardLine x = Lines.First(l => l.UniqueIdentifier == lineId);
-
-                int index = Lines.IndexOf(x);
-                
-                return Lines[index].Update(documentLine);
-            }
-            else
-            {
-                return null;
-            }           
         }
 
         public bool CanBeDeleted()

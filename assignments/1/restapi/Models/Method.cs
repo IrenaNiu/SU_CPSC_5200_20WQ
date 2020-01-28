@@ -5,7 +5,6 @@ namespace restapi.Models
         Get,
         Post,
         Put,
-        Delete,
-        Patch
+        Delete
     }
 }
