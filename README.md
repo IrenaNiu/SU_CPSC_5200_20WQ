@@ -59,11 +59,11 @@ As a result of that we will not (at this time) have a textbook. I will recommend
 [ ] 16-Feb: Fowler Analysis Patterns
 [ ] 18-Feb: GoF Design Patterns
 [ ] 18-Feb: **Team project arch proposal due**
+[ ] 18-Feb: **Individual assignment 3 available**
 
 **Week 8**
 [ ] 25-Feb: _lecture tbd_
 [ ] 25-Feb: **2nd team paper due**
-[ ] 25-Feb: **Individual assignment 3 available**
 [ ] 27-Feb: TNG Design session
 
 **Week 9**
