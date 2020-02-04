@@ -16,6 +16,8 @@ A very common problem in enterprise software development is related to handling 
 
 Your application should be able to deal with all of the countries listed in the above link. An address search should return a result to the end user in < 75ms and should support at least 1000 concurrent requests (read, write, and search). Your "database" should be seeded with 1,000,000 addresses of various formats spread across the countries on a per-capita basis (or approximately based on number of residents in each country). You are responsible for writing the code that seeds your database, and you can decide if you exercise your API to do so or if you want to "go around" your API and write the data in some other way.
 
+Astute readers will have noticed that this list of requirements is woefully inadequate. That is, I haven't provided (completely) sufficient requirements for the project. That means your team will need to discover additional requirements. You may do this by asking me via email or in class; you may ask other teams what they've done (only for requirements); and, you may make assumptions about requirements (in which case you must document your assumptions, the reasons you made them, and alternatives investigated).
+
 ## What your team needs to deliver
 
 1. A high-level architecture explaining and justifying your architecture style / pattern choice to the component level (18-Feb)
