@@ -45,8 +45,8 @@ As a result of that we will not (at this time) have a textbook. I will recommend
 [ ] 30-Jan: Architecture patterns and styles
 
 **Week 5**
-[ ] 04-Feb: Non-functional requirements (_guest lecture_)
-[ ] 06-Feb: Economics of software architecture (_guest lecture_)
+[ ] 04-Feb: Economics of software architecture (_guest lecture_)
+[ ] 06-Feb: Non-functional requirements (_guest lecture_)
 [ ] 06-Feb: **Individual assignment 2 available**
 
 **Week 6**
