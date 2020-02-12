@@ -39,18 +39,18 @@ As a result of that we will not (at this time) have a textbook. I will recommend
 - [x] 23-Jan: **Individual assignment 1 due**
 
 **Week 4**
-- [ ] 28-Jan: Agile software architecture II
-- [ ] 28-Jan: API Design
-- [ ] 28-Jan: **Team project introduction**
-- [ ] 30-Jan: Architecture patterns and styles
+- [x] 28-Jan: Agile software architecture II
+- [x] 28-Jan: API Design
+- [x] 28-Jan: **Team project introduction**
+- [x] 30-Jan: Architecture patterns and styles
 
 **Week 5**
-- [ ] 04-Feb: Economics of software architecture (_guest lecture_)
-- [ ] 06-Feb: Non-functional requirements (_guest lecture_)
+- [x] 04-Feb: Economics of software architecture (_guest lecture_)
+- [x] 06-Feb: Non-functional requirements (_guest lecture_)
 
 **Week 6**
-- [ ] 11-Feb: Documenting software architecture and design
-- [ ] 11-Feb: **Individual assignment 2 available**
+- [x] 11-Feb: Documenting software architecture and design
+- [x] 11-Feb: **Individual assignment 2 available**
 - [ ] 13-Feb: Distributed computing
 - [ ] 13-Feb: **In-class mid-term exam**
 
