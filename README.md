@@ -47,19 +47,19 @@ As a result of that we will not (at this time) have a textbook. I will recommend
 **Week 5**
 [ ] 04-Feb: Economics of software architecture (_guest lecture_)
 [ ] 06-Feb: Non-functional requirements (_guest lecture_)
-[ ] 06-Feb: **Individual assignment 2 available**
 
 **Week 6**
 [ ] 11-Feb: Documenting software architecture and design
-[ ] 11-Feb: **In-class mid-term exam**
+[ ] 11-Feb: **Individual assignment 2 available**
 [ ] 13-Feb: Distributed computing
-[ ] 13-Feb: **Individual assignment 2 due**
+[ ] 13-Feb: **In-class mid-term exam**
 
 **Week 7**
-[ ] 16-Feb: Fowler Analysis Patterns
-[ ] 18-Feb: GoF Design Patterns
-[ ] 18-Feb: **Team project arch proposal due**
-[ ] 18-Feb: **Individual assignment 3 available**
+[ ] 18-Feb: Fowler Analysis Patterns
+[ ] 20-Feb: GoF Design Patterns
+[ ] 20-Feb: **Team project arch proposal due**
+[ ] 20-Feb: **Individual assignment 2 due**
+[ ] 20-Feb: **Individual assignment 3 available**
 
 **Week 8**
 [ ] 25-Feb: _lecture tbd_
