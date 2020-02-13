@@ -25,61 +25,61 @@ As a result of that we will not (at this time) have a textbook. I will recommend
 ## Important Dates
 
 **Week 1**
-[x] 07-Jan: **First day of class**
-[x] 07-Jan: Introduction to Software Architecture and Design
-[x] 09-Jan: REST as an architectural style
+- [x] 07-Jan: **First day of class**
+- [x] 07-Jan: Introduction to Software Architecture and Design
+- [x] 09-Jan: REST as an architectural style
 
 **Week 2**
-[x] 14-Jan: **no class, weather-related**
-[x] 16-Jan: Software Architecture, An opinionated approach
+- [x] 14-Jan: **no class, weather-related**
+- [x] 16-Jan: Software Architecture, An opinionated approach
 
 **Week 3**
-[x] 21-Jan: Introduction to UML (https://seattleu.zoom.us/j/289933070)
-[x] 23-Jan: Agile software architecture I
-[x] 23-Jan: **Individual assignment 1 due**
+- [x] 21-Jan: Introduction to UML (https://seattleu.zoom.us/j/289933070)
+- [x] 23-Jan: Agile software architecture I
+- [x] 23-Jan: **Individual assignment 1 due**
 
 **Week 4**
-[ ] 28-Jan: Agile software architecture II
-[ ] 28-Jan: API Design
-[ ] 28-Jan: **Team project introduction**
-[ ] 30-Jan: Architecture patterns and styles
+- [ ] 28-Jan: Agile software architecture II
+- [ ] 28-Jan: API Design
+- [ ] 28-Jan: **Team project introduction**
+- [ ] 30-Jan: Architecture patterns and styles
 
 **Week 5**
-[ ] 04-Feb: Economics of software architecture (_guest lecture_)
-[ ] 06-Feb: Non-functional requirements (_guest lecture_)
-[ ] 06-Feb: **Individual assignment 2 available**
+- [ ] 04-Feb: Economics of software architecture (_guest lecture_)
+- [ ] 06-Feb: Non-functional requirements (_guest lecture_)
 
 **Week 6**
-[ ] 11-Feb: Documenting software architecture and design
-[ ] 11-Feb: **In-class mid-term exam**
-[ ] 13-Feb: Distributed computing
-[ ] 13-Feb: **Individual assignment 2 due**
+- [ ] 11-Feb: Documenting software architecture and design
+- [ ] 11-Feb: **Individual assignment 2 available**
+- [ ] 13-Feb: Distributed computing
+- [ ] 13-Feb: **In-class mid-term exam**
 
 **Week 7**
-[ ] 16-Feb: Fowler Analysis Patterns
-[ ] 18-Feb: GoF Design Patterns
-[ ] 18-Feb: **Team project arch proposal due**
-[ ] 18-Feb: **Individual assignment 3 available**
+- [ ] 18-Feb: Fowler Analysis Patterns
+- [ ] 20-Feb: GoF Design Patterns
+- [ ] 20-Feb: **Team project arch proposal due**
+- [ ] 20-Feb: **Individual assignment 2 due**
+- [ ] 20-Feb: **Individual assignment 3 available**
 
 **Week 8**
-[ ] 25-Feb: _lecture tbd_
-[ ] 25-Feb: **2nd team paper due**
-[ ] 27-Feb: TNG Design session
+- [ ] 25-Feb: _lecture tbd_
+- [ ] 25-Feb: **2nd team paper due**
+- [ ] 27-Feb: TNG Design session
 
 **Week 9**
-[ ] 03-Mar: Anti-patterns and Topics in Software Architecture and Design
-[ ] 05-Mar: Pragmatic Programming
-[ ] 05-Mar: **Final team paper due**
+- [ ] 03-Mar: Anti-patterns and Topics in Software Architecture and Design
+- [ ] 05-Mar: Pragmatic Programming
+- [ ] 05-Mar: **Final team paper due**
 
 **Week 10**
-[ ] 10-Mar: **In-class team presentations and demonstrations**
-[ ] 12-Mar: **In-class team presentations and demonstrations**
-[ ] 12-Mar: **Individal assignment 3 due**
+- [ ] 10-Mar: **In-class team presentations and demonstrations**
+- [ ] 12-Mar: **In-class team presentations and demonstrations**
+- [ ] 12-Mar: **Individal assignment 3 due**
 
 **Week 11**
-[ ] 17-Mar: Course and final exam review
-[ ] 17-Mar: **In-class individual presentations and demonstrations**
-[ ] 19-Mar: **Final exam due**
+- [ ] 17-Mar: Course and final exam review
+- [ ] 17-Mar: **In-class individual presentations and demonstrations**
+- [ ] 19-Mar: **Final exam due**
 
 ## List of topics / schedule (tentative)
 
