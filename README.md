@@ -51,8 +51,8 @@ As a result of that we will not (at this time) have a textbook. I will recommend
 **Week 6**
 - [x] 11-Feb: Documenting software architecture and design
 - [x] 11-Feb: **Individual assignment 2 available**
-- [ ] 13-Feb: Distributed computing
-- [ ] 13-Feb: **In-class mid-term exam**
+- [x] 13-Feb: Distributed computing
+- [x] 13-Feb: **In-class mid-term exam**
 
 **Week 7**
 - [ ] 18-Feb: Fowler Analysis Patterns
