@@ -14,7 +14,7 @@
 
     _As we discussed in class, my opinion is that Agile, as a software process, does not conflict directly with those things that we mean by software architecture. The main areas where you'll likely run into a conflict will be in the architect's desire to do additional up-front design and where an architect wants to build something "in case we need it in the future" or "to set up for when we need this later"._
 
-    _Another thing to remember is that "architecture scales agile". What I mean is that without an overall guide (you've heard me call this a "roadmap"), it's very difficult for a team to know how to make a given decision. Having a roadmap does not mean spending a ton of up-front time "doing" design or architecture, it means taking enough time to think about your ultimate destination, and laying out a few guideposts. I think of this as enabling a "go slow to go fast" model.
+    _Another thing to remember is that "architecture scales agile". What I mean is that without an overall guide (you've heard me call this a "roadmap"), it's very difficult for a team to know how to make a given decision. Having a roadmap does not mean spending a ton of up-front time "doing" design or architecture, it means taking enough time to think about your ultimate destination, and laying out a few guideposts. I think of this as enabling a "go slow to go fast" model._
 
 4.  In his 2000 Ph.D thesis, Roy Fielding argues that REST is a logical evolution of existing architectural styles. How does he "create" the REST architectural style from seemingly nothing?
 
