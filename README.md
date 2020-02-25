@@ -55,15 +55,15 @@ As a result of that we will not (at this time) have a textbook. I will recommend
 - [x] 13-Feb: **In-class mid-term exam**
 
 **Week 7**
-- [ ] 18-Feb: Fowler Analysis Patterns
-- [ ] 20-Feb: GoF Design Patterns
-- [ ] 20-Feb: **Team project arch proposal due**
-- [ ] 20-Feb: **Individual assignment 2 due**
-- [ ] 20-Feb: **Individual assignment 3 available**
+- [x] 18-Feb: Fowler Analysis Patterns
+- [x] 20-Feb: GoF Design Patterns
+- [x] 20-Feb: **Team project arch proposal due**
+- [x] 20-Feb: **Individual assignment 2 due**
+- [x] 20-Feb: **Individual assignment 3 available**
 
 **Week 8**
-- [ ] 25-Feb: _lecture tbd_
-- [ ] 25-Feb: **2nd team paper due**
+- [ ] 25-Feb: Data-driven software design / project discussion(s)
+- [ ] 27-Feb: **2nd team paper due**
 - [ ] 27-Feb: TNG Design session
 
 **Week 9**
