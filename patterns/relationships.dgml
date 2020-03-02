@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+  <Nodes>
+    <Node Id="AbstractFactory" Category="Creational" Bounds="548.574702531633,-20.9999999999998,105.306666666667,25.96" Label="Abstract Factory" UseManualLocation="True" />
+    <Node Id="Adapter" Category="Structural" Bounds="769.62833333421,-57.3599896240235,62.4833333333333,25.96" Label="Adapter" UseManualLocation="True" />
+    <Node Id="Bridge" Category="Structural" Bounds="805.468193969727,14.1400103759765,54.37,25.96" Label="Bridge" UseManualLocation="True" />
+    <Node Id="Builder" Category="Creational" Bounds="1491.12470253163,-22.1599999999999,57,25.96" Label="Builder" UseManualLocation="True" />
+    <Node Id="ChainOfResponsibility" Category="Behavioral" Bounds="1240.8663691983,-88.5,142.116666666667,25.96" Label="Chain Of Responsibility" UseManualLocation="True" />
+    <Node Id="Command" Category="Behavioral" Bounds="1530.38303586497,67,75.0966666666664,25.96" Label="Command" UseManualLocation="True" />
+    <Node Id="Composite" Category="Structural" Bounds="1296.1613691983,71.9200000000001,77.2233333333333,25.96" Label="Composite" />
+    <Node Id="Decorator" Category="Structural" Bounds="1079.65803586497,-86.1599999999997,72.8133333333333,25.96" Label="Decorator" UseManualLocation="True" />
+    <Node Id="Facade" Category="Structural" Bounds="598.621369198299,148.5,56.55,25.96" Label="Facade" UseManualLocation="True" />
+    <Node Id="FactoryMethod" Category="Creational" Bounds="554.501369198299,-135.08,103.47,25.96" Label="Factory Method" UseManualLocation="True" />
+    <Node Id="Flyweight" Category="Structural" Bounds="965.439702531633,82.3400000000003,70.3533333333332,25.96" Label="Flyweight" UseManualLocation="True" />
+    <Node Id="Interpreter" Category="Behavioral" Bounds="1020.10470253163,175.5,76.52,25.96" Label="Interpreter" UseManualLocation="True" />
+    <Node Id="Iterator" Category="Behavioral" Bounds="1419.9163691983,277.26,59.0866666666666,25.96" Label="Iterator" UseManualLocation="True" />
+    <Node Id="Mediator" Category="Behavioral" Bounds="889.321666666667,275.06,68.4033333333333,25.96" Label="Mediator" UseManualLocation="True" />
+    <Node Id="Memento" Category="Behavioral" Bounds="1569.01970253163,233.68,71.5533333333333,25.9600000000001" Label="Memento" UseManualLocation="True" />
+    <Node Id="Observer" Category="Behavioral" Bounds="697.213331298828,184.760054043579,67.84,25.96" Label="Observer" UseManualLocation="True" />
+    <Node Id="Prototype" Category="Creational" Bounds="667.633035864966,66.4200000000002,72.2233333333334,25.96" Label="Prototype" UseManualLocation="True" />
+    <Node Id="Proxy" Category="Structural" Bounds="783.331666666667,80.6400000000003,50,25.96" Label="Proxy" UseManualLocation="True" />
+    <Node Id="Singleton" Category="Creational" Bounds="487.38635172526,66.7999540435791,70.2066666666667,25.96" Label="Singleton" UseManualLocation="True" />
+    <Node Id="State" Category="Behavioral" Bounds="808.861369198299,154.42,50,25.96" Label="State" UseManualLocation="True" />
+    <Node Id="Strategy" Category="Behavioral" Bounds="901.838193969727,-21.5800022888184,63.55,25.96" Label="Strategy" UseManualLocation="True" />
+    <Node Id="TemplateMethod" Category="Behavioral" Bounds="808.956369198299,-135.5,113.433333333333,25.96" Label="Template Method" UseManualLocation="True" />
+    <Node Id="Visitor" Category="Behavioral" Bounds="1116.9413691983,280.34,53.6300000000001,25.96" Label="Visitor" UseManualLocation="True" />
+  </Nodes>
+  <Links>
+    <Link Source="AbstractFactory" Target="FactoryMethod" Bounds="601.797874286381,-100.128662975758,3.4739003397824,79.1286625179945" Label="implement using" LabelBounds="510.651489269118,-68.6320510664906,88.8833333333334,15.96" />
+    <Link Source="AbstractFactory" Target="Prototype" Bounds="616.449563657033,4.95999954223633,65.2254318840304,55.6202796110603" Label="configure factory" LabelBounds="650.359994834134,15.2883196578469,90.1033333333336,15.96" />
+    <Link Source="AbstractFactory" Target="Singleton" Bounds="540.138852300542,4.95999954223633,49.4488075147287,55.1396268176986" Label="single instance" LabelBounds="566.352216686417,33.8651017763012,77.9000000000001,15.96" />
+    <Link Source="ChainOfResponsibility" Target="Composite" Bounds="1313.77340237975,-62.5400004577637,17.8818659441167,125.549920899433" Label="defining the chain" LabelBounds="1326.7145370132,-8.02705062550073,95.4033333333332,15.96" />
+    <Link Source="Command" Target="Composite" Bounds="1382.3826994631,80.7723271975582,148.000363687941,3.12303558473921" Label="composed using" LabelBounds="1412.74340832742,86.3338450890186,87.3633333333335,15.9600000000001" />
+    <Link Source="Command" Target="Memento" Bounds="1570.8022108863,92.9599995422363,29.1797642426584,131.932367211184" Label="avoiding hysteresis" LabelBounds="1589.39323349011,150.514276555069,100.483333333333,15.96" />
+    <Link Source="Composite" Target="Builder" Bounds="1360.27659276689,7.88223883288001,125.823627565307,64.0377611671201" Label="creating composites" LabelBounds="1315.63457523031,22.1586906540139,106.646666666667,15.96" />
+    <Link Source="Composite" Target="Decorator" Bounds="1141.31705974002,-54.9278682958346,175.497763640513,126.847868295835" Label="adding responsibilities to objects" LabelBounds="1053.43102333598,10.1169880720746,174.463333333333,15.96" />
+    <Link Source="Composite" Target="Flyweight" Bounds="1044.78866335197,86.1040267539179,251.372705846328,7.83854956732507" Label="sharing composites" LabelBounds="1119.21568526501,94.0233020098808,102.643333333333,15.96" />
+    <Link Source="Composite" Target="Iterator" Bounds="1342.02263620262,97.8800000000001,95.7988863657422,171.5224960153" Label="enumerating children" LabelBounds="1391.66819138209,166.706008090845,113.32,15.96" />
+    <Link Source="Composite" Target="Visitor" Bounds="1161.73343897397,97.8800000000001,161.143443290893,175.825057764705" Label="adding operations" LabelBounds="1243.77959222726,187.143843588034,96.8166666666666,15.9600000000001" />
+    <Link Source="Decorator" Target="Strategy" Bounds="973.630067882987,-60.7451136299596,107.303569659895,37.9808562308505" Label="changing skins vs guts" LabelBounds="1021.95527787254,-37.747717140699,118.623333333333,15.96" />
+    <Link Source="Facade" Target="Singleton" Bounds="546.165033537024,98.3063224388896,64.1438391876878,50.1936732886494" Label="single instance" LabelBounds="499.104425741833,124.978238838426,77.9000000000002,15.9600000000001" />
+    <Link Source="Interpreter" Target="Composite" Bounds="1093.00248488817,101.038156203145,198.70508628607,74.4618395243936" Label="defining grammar" LabelBounds="1102.20607696735,118.300439557119,95.1466666666668,15.96" />
+    <Link Source="Interpreter" Target="Flyweight" Bounds="1013.40424170019,115.949521597676,36.9143807280852,59.5504741298635" Label="sharing terminal symbols" LabelBounds="897.778204974706,146.778495450268,132.383333333333,15.96" />
+    <Link Source="Interpreter" Target="Visitor" Bounds="1068.9368599757,201.459995727539,58.5636498423773,71.9017964783241" Label="adding operations" LabelBounds="1099.76939774003,220.187846193212,96.8166666666668,15.9600000000001" />
+    <Link Source="Iterator" Target="Memento" Bounds="1479.00305013021,259.128172915836,81.3517186574541,22.8233902713606" Label="saving state on iteration" LabelBounds="1399.21937154944,250.576997512756,127.323333333333,15.9599999999999" />
+    <Link Source="Observer" Target="Mediator" Bounds="758.78808286286,210.72006652832,128.933275559437,60.5159627952748" Label="complex dependency management" LabelBounds="824.104491904002,223.207553848845,186.326666666666,15.9600000000001" />
+    <Link Source="State" Target="Flyweight" Bounds="858.757809568995,111.870937719432,103.568419792754,44.767559606036" Label="sharing states" LabelBounds="836.83181101546,116.458882170834,72.9166666666665,15.96" />
+    <Link Source="Strategy" Target="Decorator" Bounds="965.145859199378,-57.7420697871077,107.30357353738,37.9808567139173" Label="" LabelBounds="1018.08030284885,-58.7186098033686,0,15.96" />
+    <Link Source="Strategy" Target="Flyweight" Bounds="941.982134881734,4.37999771118164,45.3882708938364,70.3959391794556" Label="sharing strategies" LabelBounds="966.357173174027,22.5341935125151,93.3400000000006,15.96" />
+    <Link Source="TemplateMethod" Target="FactoryMethod" Bounds="666.971346849077,-122.428182333967,141.985022349223,0.229857185372495" Label="often uses" LabelBounds="710.737095786099,-118.313253741277,54.46,15.96" />
+    <Link Source="TemplateMethod" Target="Strategy" Bounds="873.41411043011,-109.54,47.848106837219,80.2302602204142" Label="defining algorith's steps" LabelBounds="899.055883291112,-86.4092916375247,126.616666666667,15.96" />
+    <Link Source="Visitor" Target="Iterator" Bounds="1170.5713691983,290.62832917063,240.345471015653,2.42150678520932" Label="defining traversals" LabelBounds="1242.42895551102,271.879082558083,96.5900000000001,15.9599999999999" />
+  </Links>
+  <Categories>
+    <Category Id="Behavioral" Background="#FFADD8E6" NodeRadius="3" Stroke="#FF0000FF" />
+    <Category Id="Creational" NodeRadius="3" Stroke="#FFFF0000" />
+    <Category Id="Structural" Background="#FF90EE90" NodeRadius="3" Stroke="#FF008000" />
+  </Categories>
+  <Properties>
+    <Property Id="Background" Label="Background" Description="The background color" DataType="System.Windows.Media.Brush" />
+    <Property Id="Bounds" DataType="System.Windows.Rect" />
+    <Property Id="Label" Label="Label" Description="Displayable label of an Annotatable object" DataType="System.String" />
+    <Property Id="LabelBounds" DataType="System.Windows.Rect" />
+    <Property Id="NodeRadius" Label="Node Radius" Description="Node Radius" DataType="System.Double" />
+    <Property Id="Stroke" DataType="System.Windows.Media.Brush" />
+    <Property Id="UseManualLocation" DataType="System.Boolean" />
+  </Properties>
+</DirectedGraph>

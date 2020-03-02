@@ -1,0 +1,104 @@
+digraph {
+    graph [ fontname="Helvetica Neue", fontcolor=blue, fontsize=8; layout=fdp, K=1.1, splines=true ];
+    edge [ fontname="Helvetica Neue", fontcolor=blue, fontsize=8, arrowsize=0.5,  ];
+    node [ fontname="Helvetica Neue", fontsize=8, style=filled ];
+
+    node [ fontname="Helvetica Neue", fontcolor="#000000", fontsize=8, fillcolor="#95B9C7" ];
+    AbstractFactory [ label="Abstract Factory" ]
+    Builder [ label="Builder" ]
+    FactoryMethod [ label="Factory Method" ]
+    Prototype [ label="Prototype" ]
+    Singleton [ label="Singleton" ]
+    
+    node [ fontname="Helvetica Neue", fontcolor="#000000", fontsize=8, fillcolor="#E5E4E2" ];
+    Adapter [ label="Adapter" ]
+    Bridge [ label="Bridge" ]
+    Composite [ label="Composite" ]
+    Decorator [ label="Decorator" ]
+    Facade [ label="Facade" ]
+    Flyweight [ label="Flyweight" ]
+    Proxy [ label="Proxy" ]
+
+    node [ fontname="Helvetica Neue", fontcolor="#000000", fontsize=8, fillcolor="#E9CFEC" ];
+    ChainOfResponsibility [ label="Chain of Responsibility" ]
+    Command [ label="Command" ]
+    Interpreter [ label="Interpreter" ]
+    Iterator [ label="Iterator" ]
+    Mediator [ label="Mediator" ]
+    Memento [ label="Memento" ]
+    Observer [ label="Observer" ]
+    State [ label="State" ]
+    Strategy [ label="Strategy" ]
+    TemplateMethod [ label="Template Method" ]
+    Visitor [ label="Visitor" ]
+
+    # Singleton
+
+    # Facade
+    Facade -> Singleton [ label="single instance" ]
+
+    # AbstractFactory
+    AbstractFactory -> Prototype [ label="configure\nfactory\ndynamically" ]
+    AbstractFactory -> Singleton [ label="single\ninstance" ]
+    AbstractFactory -> FactoryMethod [ label="implement\nusing" ]
+
+    # Prototype
+
+    # FactoryMethod
+
+    # TemplateMethod
+    TemplateMethod -> FactoryMethod [ label="often uses" ]
+    TemplateMethod -> Strategy [ label="defining\nalgorithm's\nsteps" ]
+
+    # State
+    State -> Flyweight [ label="sharing states" ]
+
+    # Strategy
+    Strategy -> Decorator [ label="" ]
+    Strategy -> Flyweight [ label="sharing\nstrategies" ]
+
+    # Mediator
+
+    # Observer
+    Observer -> Mediator [ label="complex\ndependency\nmanagement" ]
+
+    # Interpreter
+    Interpreter -> Flyweight [ label="sharing\nterminal\nsymbols" ]
+    Interpreter -> Composite [ label="defining\ngrammar" ]
+    Interpreter -> Visitor [ label="adding\noperations" ]
+
+    # ChainOfResponsibility
+    ChainOfResponsibility -> Composite [ label="defining\nthe chain" ]
+
+    # Flyweight
+
+    # Visitor
+    Visitor -> Iterator [ label="defining\ntraversals" ]
+
+    # Decorator
+    Decorator -> Strategy [ label="changing\nskin vs guts" ]
+
+    # Composite
+    Composite -> Builder [ label="creating\ncomposites" ]
+    Composite -> Decorator [ label="adding\nresponsibilites\nto objects" ]
+    Composite -> Flyweight [ label="sharing\ncomposites" ]
+    Composite -> Visitor [ label="adding\noperations" ]
+    Composite -> Iterator [ label="enumerating\nchildren" ]
+
+    # Command
+    Command -> Composite [ label="composed using" ]
+    Command -> Memento [ label="avoiding\nhysteresis" ]
+
+    # Iterator
+    Iterator -> Memento [ label="saving state\non iteration" ]
+
+    # Bridge
+
+    # Builder
+
+    # Adapter
+
+    # Memento
+
+    # Proxy
+}

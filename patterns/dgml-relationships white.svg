@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<svg stroke-linecap="round" font-size="12" font-family="Helvetica Neue" width="1193.1866841397032" height="481.79999999999995" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs />
+  <rect width="1193.1866841397032" height="481.79999999999995" fill="#ffffff" />
+  <g transform="translate(-467.38635172526,155.5)">
+    <g id="AbstractFactory-&gt;FactoryMethod">
+      <path d="M 601.79788304823,-20.9999999999998 L 605.271784774886,-100.128660694244" fill="none" stroke="#A0A0A0" stroke-width="1" />
+      <path d="M 605.666522015036,-109.12 L 601.231774278977,-99.3050617670041 C 603.939734507366,-100.187140285377 606.603835042405,-100.07018110311 609.224075884094,-98.954184220204 z" fill="#A0A0A0" stroke="#A0A0A0" stroke-width="1" stroke-linejoin="round" />
+      <text x="510.65149872440014" y="-55.682049733821756" fill="#A0A0A0">implement using</text>
+    </g>
+    <g id="AbstractFactory-&gt;Prototype">
+      <path d="M 616.44956793238,4.9600000000002 L 681.674982663815,60.5802804989962" fill="none" stroke="#A0A0A0" stroke-width="1" />
+      <path d="M 688.523170464219,66.4200000000002 L 683.50950379755,56.8877837542609 C 682.540126293594,59.5657341581957 680.809839034037,61.5948268397967 678.31864201888,62.9750617990639 z" fill="#A0A0A0" stroke="#A0A0A0" stroke-width="1" stroke-linejoin="round" />
+      <text x="650.35999074276538" y="28.238320738297446" fill="#A0A0A0">configure factory</text>
+    </g>
+    <g id="AbstractFactory-&gt;Singleton">
+      <path d="M 589.587667659768,4.9600000000002 L 540.138853170875,60.0996313889129" fill="none" stroke="#A0A0A0" stroke-width="1" />
+      <path d="M 534.130053263791,66.7999540435791 L 543.784418784847,62.0257288304315 C 541.131493564159,60.9898239677401 539.146212777591,59.2094388100857 537.828576425144,56.6845733574684 z" fill="#A0A0A0" stroke="#A0A0A0" stroke-width="1" stroke-linejoin="round" />
+      <text x="566.35222100524743" y="46.815104562697343" fill="#A0A0A0">single instance</text>
+    </g>
+    <g id="ChainOfResponsibility-&gt;Composite">
+      <path d="M 1313.77342068814,-62.54 L 1331.65527101047,63.0099202877686" fill="none" stroke="#A0A0A0" stroke-width="1" />
+      <path d="M 1332.92431770846,71.9200000000001 L 1335.47430124946,61.4558906761916 C 1332.97528281969,62.8219133695478 1330.33525920125,63.1979272059894 1327.55423039415,62.5839321855164 z" fill="#A0A0A0" stroke="#A0A0A0" stroke-width="1" stroke-linejoin="round" />
+      <text x="1326.7145475100065" y="4.9229497665530975" fill="#A0A0A0">defining the chain</text>
+    </g>
+    <g id="Command-&gt;Composite">
+      <path d="M 1530.38303586497,80.7723276743272 L 1382.38269946301,83.8953627582015" fill="none" stroke="#A0A0A0" stroke-width="1" />
+      <path d="M 1373.38470253163,84.0852343543373 L 1383.46686427588,87.8733756614629 C 1382.41082858836,85.228399340627 1382.35457033765,82.562326175776 1383.29808952376,79.87515616691 z" fill="#A0A0A0" stroke="#A0A0A0" stroke-width="1" stroke-linejoin="round" />
+      <text x="1412.7433946853512" y="99.283845315355151" fill="#A0A0A0">composed using</text>
+    </g>
+    <g id="Command-&gt;Memento">
+      <path d="M 1570.80218573298,92.96 L 1599.98197161964,224.892367057878" fill="none" stroke="#A0A0A0" stroke-width="1" />
+      <path d="M 1601.92555266362,233.68 L 1603.67163281125,223.052149600316 C 1601.28384316662,224.604429125436 1598.68010007266,225.18030499032 1595.86040352936,224.779777194969 z" fill="#A0A0A0" stroke="#A0A0A0" stroke-width="1" stroke-linejoin="round" />
+      <text x="1589.3932191620986" y="163.46427663027589" fill="#A0A0A0">avoiding hysteresis</text>
+    </g>
+    <g id="Composite-&gt;Builder">
+      <path d="M 1360.27659276689,71.9200000000001 L 1486.1002203322,7.88223883287991" fill="none" stroke="#A0A0A0" stroke-width="1" />
+      <path d="M 1494.12114976312,3.79999789630531 L 1483.39467664584,4.77096363431386 C 1485.49544389715,6.69395299126253 1486.70499676725,9.07052467449727 1487.02333525613,11.9006786840181 z" fill="#A0A0A0" stroke="#A0A0A0" stroke-width="1" stroke-linejoin="round" />
+      <text x="1424.0955712021184" y="54.633548178866064" fill="#A0A0A0">creating composites</text>
+    </g>
+    <g id="Composite-&gt;Decorator">
+      <path d="M 1316.81482377826,71.9200000000001 L 1141.31706455287,-54.927867913963" fill="none" stroke="#A0A0A0" stroke-width="1" />
+      <path d="M 1134.02291461834,-60.1999999999997 L 1139.78435584069,-51.100231044613 C 1140.53600794753,-53.8472531088477 1142.09812115821,-56.0084827190784 1144.47069547272,-57.583919875305 z" fill="#A0A0A0" stroke="#A0A0A0" stroke-width="1" stroke-linejoin="round" />
+      <text x="1047.9467209484315" y="19.102992378380186" fill="#A0A0A0">adding responsibilities to objects</text>
+    </g>
+    <g id="Composite-&gt;Flyweight">
+      <path d="M 1296.1613691983,86.104026753918 L 1044.78866335197,93.942576321243" fill="none" stroke="#A0A0A0" stroke-width="1" />
+      <path d="M 1035.79303586497,94.2230867756644 L 1045.91284883027,97.9094651538651 C 1044.83022045633,95.2752618748734 1044.74710624761,92.6098907676127 1045.66350620412,89.9133518320829 z" fill="#A0A0A0" stroke="#A0A0A0" stroke-width="1" stroke-linejoin="round" />
+      <text x="1119.2156852650073" y="106.97330200988081" fill="#A0A0A0">sharing composites</text>
+    </g>
+    <g id="Composite-&gt;Iterator">
+      <path d="M 1342.02263620262,97.8800000000001 L 1437.82152256836,269.4024960153" fill="none" stroke="#A0A0A0" stroke-width="1" />
+      <path d="M 1442.21010219398,277.26 L 1440.82612660316,266.57896018339 C 1438.98559723276,268.752336070763 1436.65744790396,270.052655959837 1433.84167861676,270.47991985061 z" fill="#A0A0A0" stroke="#A0A0A0" stroke-width="1" stroke-linejoin="round" />
+      <text x="1391.6681913820887" y="179.65600809084512" fill="#A0A0A0">enumerating children</text>
+    </g>
+    <g id="Composite-&gt;Visitor">
+      <path d="M 1322.87688226486,97.8800000000001 L 1161.73343897397,273.705057764705" fill="none" stroke="#A0A0A0" stroke-width="1" />
+      <path d="M 1155.6525227984,280.34 L 1165.3579595425,275.670471372147 C 1162.7163933792,274.605934235159 1160.75048456874,272.80418129425 1159.46023311113,270.265212549419 z" fill="#A0A0A0" stroke="#A0A0A0" stroke-width="1" stroke-linejoin="round" />
+      <text x="1243.779592227261" y="200.09384358803425" fill="#A0A0A0">adding operations</text>
+    </g>
+    <g id="Decorator-&gt;Strategy">
+      <path d="M 1079.65803586497,-64.1829633729243 L 1077.5242120368,-63.4205114220831 A 522.240785252493,522.240785252493 0 0 1 1058.29808843661,-56.9688216596595 A 441.245500723101,441.245500723101 3.14159265358979 0 0 1039.09652545221,-50.4491610336897 L 1006.20817390958,-38.4326164285331 A 499.584877212873,499.584877212873 3.14159265358979 0 0 985.961419513834,-30.5316653389322 A 366.894977894186,366.894977894186 3.14159265358979 0 0 972.560663945297,-24.6472979607519" fill="none" stroke="#A0A0A0" stroke-width="1" />
+      <path d="M 964.43880188708,-20.7697527698753 L 975.186446481044,-21.4684198449749 C 973.135115084686,-23.4440591373123 971.986212805908,-25.8505367841915 971.73973964471,-28.6878527856125 z" fill="#A0A0A0" stroke="#A0A0A0" stroke-width="1" stroke-linejoin="round" />
+      <text x="916.72398761834449" y="-54.21861696813481" fill="#A0A0A0">changing skins vs guts</text>
+    </g>
+    <g id="Facade-&gt;Singleton">
+      <path d="M 610.308878404766,148.5 L 546.165034947518,98.306327042565" fill="none" stroke="#A0A0A0" stroke-width="1" />
+      <path d="M 539.077175852127,92.7599540435791 L 544.48752018079,102.072750307071 C 545.343350058779,99.3563802418822 546.986719836257,97.2562738432477 549.417629513222,95.7724311111672 z" fill="#A0A0A0" stroke="#A0A0A0" stroke-width="1" stroke-linejoin="round" />
+      <text x="499.10442934303359" y="137.92824332025833" fill="#A0A0A0">single instance</text>
+    </g>
+    <g id="Interpreter-&gt;Composite">
+      <path d="M 1093.00247204956,175.5 L 1291.70757096215,101.038156186682" fill="none" stroke="#A0A0A0" stroke-width="1" />
+      <path d="M 1300.13526634704,97.8800000000001 L 1289.36753539197,97.6434200363613 C 1291.23969597153,99.7896087222534 1292.17544595277,102.28670365111 1292.17478533569,105.134704822932 z" fill="#A0A0A0" stroke="#A0A0A0" stroke-width="1" stroke-linejoin="round" />
+      <text x="1102.2060704753633" y="131.25044168530985" fill="#A0A0A0">defining grammar</text>
+    </g>
+    <g id="Interpreter-&gt;Flyweight">
+      <path d="M 1050.3186165863,175.5 L 1013.40426762168,115.949523803673" fill="none" stroke="#A0A0A0" stroke-width="1" />
+      <path d="M 1008.66245514363,108.3 L 1010.53134731761,118.906943105439 C 1012.27100483595,116.652014541163 1014.53753040741,115.247033066183 1017.33092403199,114.6919986805 z" fill="#A0A0A0" stroke="#A0A0A0" stroke-width="1" stroke-linejoin="round" />
+      <text x="897.77821459206586" y="159.72849800807106" fill="#A0A0A0">sharing terminal symbols</text>
+    </g>
+    <g id="Interpreter-&gt;Visitor">
+      <path d="M 1068.93684897701,201.46 L 1127.500507111,273.361792744424" fill="none" stroke="#A0A0A0" stroke-width="1" />
+      <path d="M 1133.18422275292,280.34 L 1129.97040859771,270.060340541839 C 1128.53431559331,272.519760797473 1126.46669862869,274.203824691375 1123.76755770386,275.112532223548 z" fill="#A0A0A0" stroke="#A0A0A0" stroke-width="1" stroke-linejoin="round" />
+      <text x="1099.7693907674654" y="233.13784845178486" fill="#A0A0A0">adding operations</text>
+    </g>
+    <g id="Iterator-&gt;Memento">
+      <path d="M 1479.00303586497,281.951561125298 L 1560.35481196198,259.128164187627" fill="none" stroke="#A0A0A0" stroke-width="1" />
+      <path d="M 1569.02024522611,256.697060252191 L 1558.31149540577,255.546983174173 C 1559.99464841599,257.844396296644 1560.71497550797,260.411932078609 1560.47247668172,263.249590520067 z" fill="#A0A0A0" stroke="#A0A0A0" stroke-width="1" stroke-linejoin="round" />
+      <text x="1512.8151254408183" y="287.4927331906444" fill="#A0A0A0">saving state on iteration</text>
+    </g>
+    <g id="Observer-&gt;Mediator">
+      <path d="M 758.788079039353,210.720054043579 L 887.721362449154,271.236028890342" fill="none" stroke="#A0A0A0" stroke-width="1" />
+      <path d="M 895.868585592808,275.06 L 888.515658148595,267.190155147645 C 888.287876687622,270.02903286906 887.154848210686,272.443024911624 885.116572717789,274.432131275338 z" fill="#A0A0A0" stroke="#A0A0A0" stroke-width="1" stroke-linejoin="round" />
+      <text x="824.1044921019552" y="236.15754743503729" fill="#A0A0A0">complex dependency management</text>
+    </g>
+    <g id="State-&gt;Flyweight">
+      <path d="M 858.757790548828,156.6384992897 L 962.326254206648,111.870936935014" fill="none" stroke="#A0A0A0" stroke-width="1" />
+      <path d="M 970.587513759898,108.3 L 959.821253396281,108.596036793016 C 961.797226512572,110.647046630829 962.855281900724,113.094827239199 962.995419560738,115.939378618126 z" fill="#A0A0A0" stroke="#A0A0A0" stroke-width="1" stroke-linejoin="round" />
+      <text x="836.8318141699574" y="129.40888265607924" fill="#A0A0A0">sharing states</text>
+    </g>
+    <g id="Strategy-&gt;Decorator">
+      <path d="M 965.388193969727,-14.5714325144597 L 968.717328644006,-16.179816871241 A 391.856187560085,391.856187560085 0 0 1 988.292962268647,-24.9843833392123 A 478.115403876826,478.115403876826 0 0 1 1008.2854136317,-32.80366669196 L 1040.99980180241,-44.7590345733385 A 439.586014048435,439.586014048435 0 0 1 1060.21728919209,-51.2832177286766 A 517.65186774432,517.65186774432 3.14159265358979 0 0 1077.86034012741,-57.1723362748402" fill="none" stroke="#A0A0A0" stroke-width="1" />
+      <path d="M 1086.33579010763,-60.1999999999997 L 1075.57299514064,-60.6027958521463 C 1077.41179735331,-58.4279584941333 1078.3088829015,-55.9167140555471 1078.26425178523,-53.0690625363877 z" fill="#A0A0A0" stroke="#A0A0A0" stroke-width="1" stroke-linejoin="round" />
+    </g>
+    <g id="Strategy-&gt;Flyweight">
+      <path d="M 941.9821431163,4.3799977111816 L 987.370436373036,74.7759382473579" fill="none" stroke="#A0A0A0" stroke-width="1" />
+      <path d="M 992.247420051727,82.3400000000003 L 990.190354521023,71.7679386398686 C 988.491038114168,74.0534221468112 986.249834631904,75.4984543479047 983.46674407423,76.103035243149 z" fill="#A0A0A0" stroke="#A0A0A0" stroke-width="1" stroke-linejoin="round" />
+      <text x="966.35719235636645" y="35.484193828449669" fill="#A0A0A0">sharing strategies</text>
+    </g>
+    <g id="TemplateMethod-&gt;FactoryMethod">
+      <path d="M 808.956369198299,-122.428181829862 L 666.971357404668,-122.198323399597" fill="none" stroke="#A0A0A0" stroke-width="1" />
+      <path d="M 657.971369198299,-122.183753388753 L 667.97783165464,-118.199947531304 C 666.973515924793,-120.864991813468 666.969198884543,-123.531654985725 667.96488053389,-126.199937048077 z" fill="#A0A0A0" stroke="#A0A0A0" stroke-width="1" stroke-linejoin="round" />
+      <text x="710.73710108167108" y="-105.36325261472592" fill="#A0A0A0">often uses</text>
+    </g>
+    <g id="TemplateMethod-&gt;Strategy">
+      <path d="M 873.414110916912,-109.54 L 921.262220839148,-29.3097396520552" fill="none" stroke="#A0A0A0" stroke-width="1" />
+      <path d="M 925.872118917781,-21.5800022888184 L 924.185448769628,-32.2174429495849 C 922.407367115183,-29.9926875155564 920.117074563113,-28.6267917885541 917.314571113417,-28.1197557685783 z" fill="#A0A0A0" stroke="#A0A0A0" stroke-width="1" stroke-linejoin="round" />
+      <text x="899.05588529208262" y="-73.459291621279291" fill="#A0A0A0">defining algorith's steps</text>
+    </g>
+    <g id="Visitor-&gt;Iterator">
+      <path d="M 1170.5713691983,293.049835461395 L 1410.91682595038,290.628324388144" fill="none" stroke="#A0A0A0" stroke-width="1" />
+      <path d="M 1419.9163691983,290.537652844261 L 1409.87657823667,286.638602005057 C 1410.90339312907,289.295058721786 1410.9302587717,291.961590054502 1409.95717516456,294.638196003205 z" fill="#A0A0A0" stroke="#A0A0A0" stroke-width="1" stroke-linejoin="round" />
+      <text x="1242.4289483423672" y="284.8290799196181" fill="#A0A0A0">defining traversals</text>
+    </g>
+    <g id="AbstractFactory">
+      <rect x="548.574702531633" y="-20.9999999999998" rx="3" ry="3" width="105.306666666667" height="25.96" fill="#fadede" stroke="#FF0000" stroke-width="1" />
+      <text x="558.574702531633" y="-3.0499999999998" fill="#3D3D3D">Abstract Factory</text>
+    </g>
+    <g id="Adapter">
+      <rect x="769.62833333421" y="-57.3599896240235" rx="3" ry="3" width="62.4833333333333" height="25.96" fill="#bcfabc" stroke="#008000" stroke-width="1" />
+      <text x="779.62833333421" y="-39.409989624023495" fill="#000000">Adapter</text>
+    </g>
+    <g id="Bridge">
+      <rect x="805.468193969727" y="14.1400103759765" rx="3" ry="3" width="54.37" height="25.96" fill="#bcfabc" stroke="#008000" stroke-width="1" />
+      <text x="815.468193969727" y="32.090010375976505" fill="#000000">Bridge</text>
+    </g>
+    <g id="Builder">
+      <rect x="1491.12470253163" y="-22.1599999999999" rx="3" ry="3" width="57" height="25.96" fill="#fadede" stroke="#FF0000" stroke-width="1" />
+      <text x="1501.12470253163" y="-4.2099999999999" fill="#3D3D3D">Builder</text>
+    </g>
+    <g id="ChainOfResponsibility">
+      <rect x="1240.8663691983" y="-88.5" rx="3" ry="3" width="142.116666666667" height="25.96" fill="#c6eefc" stroke="#0000FF" stroke-width="1" />
+      <text x="1250.8663691983" y="-70.55" fill="#3D3D3D">Chain Of Responsibility</text>
+    </g>
+    <g id="Command">
+      <rect x="1530.38303586497" y="67" rx="3" ry="3" width="75.0966666666664" height="25.96" fill="#c6eefc" stroke="#0000FF" stroke-width="1" />
+      <text x="1540.38303586497" y="84.95" fill="#3D3D3D">Command</text>
+    </g>
+    <g id="Composite">
+      <rect x="1296.1613691983" y="71.9200000000001" rx="3" ry="3" width="77.2233333333333" height="25.96" fill="#bcfabc" stroke="#008000" stroke-width="1" />
+      <text x="1306.1613691983" y="89.8700000000001" fill="#000000">Composite</text>
+    </g>
+    <g id="Decorator">
+      <rect x="1079.65803586497" y="-86.1599999999997" rx="3" ry="3" width="72.8133333333333" height="25.96" fill="#bcfabc" stroke="#008000" stroke-width="1" />
+      <text x="1089.65803586497" y="-68.2099999999997" fill="#000000">Decorator</text>
+    </g>
+    <g id="Facade">
+      <rect x="598.621369198299" y="148.5" rx="3" ry="3" width="56.55" height="25.96" fill="#bcfabc" stroke="#008000" stroke-width="1" />
+      <text x="608.621369198299" y="166.45" fill="#000000">Facade</text>
+    </g>
+    <g id="FactoryMethod">
+      <rect x="554.501369198299" y="-135.08" rx="3" ry="3" width="103.47" height="25.96" fill="#fadede" stroke="#FF0000" stroke-width="1" />
+      <text x="564.501369198299" y="-117.13000000000001" fill="#3D3D3D">Factory Method</text>
+    </g>
+    <g id="Flyweight">
+      <rect x="965.439702531633" y="82.3400000000003" rx="3" ry="3" width="70.3533333333332" height="25.96" fill="#bcfabc" stroke="#008000" stroke-width="1" />
+      <text x="975.439702531633" y="100.29000000000031" fill="#000000">Flyweight</text>
+    </g>
+    <g id="Interpreter">
+      <rect x="1020.10470253163" y="175.5" rx="3" ry="3" width="76.52" height="25.96" fill="#c6eefc" stroke="#0000FF" stroke-width="1" />
+      <text x="1030.10470253163" y="193.45" fill="#3D3D3D">Interpreter</text>
+    </g>
+    <g id="Iterator">
+      <rect x="1419.9163691983" y="277.26" rx="3" ry="3" width="59.0866666666666" height="25.96" fill="#c6eefc" stroke="#0000FF" stroke-width="1" />
+      <text x="1429.9163691983" y="295.21" fill="#3D3D3D">Iterator</text>
+    </g>
+    <g id="Mediator">
+      <rect x="889.321666666667" y="275.06" rx="3" ry="3" width="68.4033333333333" height="25.96" fill="#c6eefc" stroke="#0000FF" stroke-width="1" />
+      <text x="899.321666666667" y="293.01" fill="#3D3D3D">Mediator</text>
+    </g>
+    <g id="Memento">
+      <rect x="1569.01970253163" y="233.68" rx="3" ry="3" width="71.5533333333333" height="25.9600000000001" fill="#c6eefc" stroke="#0000FF" stroke-width="1" />
+      <text x="1579.01970253163" y="251.63" fill="#3D3D3D">Memento</text>
+    </g>
+    <g id="Observer">
+      <rect x="697.213331298828" y="184.760054043579" rx="3" ry="3" width="67.84" height="25.96" fill="#c6eefc" stroke="#0000FF" stroke-width="1" />
+      <text x="707.213331298828" y="202.710054043579" fill="#3D3D3D">Observer</text>
+    </g>
+    <g id="Prototype">
+      <rect x="667.633035864966" y="66.4200000000002" rx="3" ry="3" width="72.2233333333334" height="25.96" fill="#fadede" stroke="#FF0000" stroke-width="1" />
+      <text x="677.633035864966" y="84.3700000000002" fill="#3D3D3D">Prototype</text>
+    </g>
+    <g id="Proxy">
+      <rect x="783.331666666667" y="80.6400000000003" rx="3" ry="3" width="50" height="25.96" fill="#bcfabc" stroke="#008000" stroke-width="1" />
+      <text x="793.331666666667" y="98.5900000000003" fill="#000000">Proxy</text>
+    </g>
+    <g id="Singleton">
+      <rect x="487.38635172526" y="66.7999540435791" rx="3" ry="3" width="70.2066666666667" height="25.96" fill="#fadede" stroke="#FF0000" stroke-width="1" />
+      <text x="497.38635172526" y="84.749954043579109" fill="#3D3D3D">Singleton</text>
+    </g>
+    <g id="State">
+      <rect x="808.861369198299" y="154.42" rx="3" ry="3" width="50" height="25.96" fill="#c6eefc" stroke="#0000FF" stroke-width="1" />
+      <text x="819.861369198299" y="172.36999999999998" fill="#3D3D3D">State</text>
+    </g>
+    <g id="Strategy">
+      <rect x="901.838193969727" y="-21.5800022888184" rx="3" ry="3" width="63.55" height="25.96" fill="#c6eefc" stroke="#0000FF" stroke-width="1" />
+      <text x="911.838193969727" y="-3.6300022888183978" fill="#3D3D3D">Strategy</text>
+    </g>
+    <g id="TemplateMethod">
+      <rect x="808.956369198299" y="-135.5" rx="3" ry="3" width="113.433333333333" height="25.96" fill="#c6eefc" stroke="#0000FF" stroke-width="1" />
+      <text x="818.956369198299" y="-117.55" fill="#3D3D3D">Template Method</text>
+    </g>
+    <g id="Visitor">
+      <rect x="1116.9413691983" y="280.34" rx="3" ry="3" width="53.6300000000001" height="25.96" fill="#c6eefc" stroke="#0000FF" stroke-width="1" />
+      <text x="1126.9413691983" y="298.28999999999996" fill="#3D3D3D">Visitor</text>
+    </g>
+  </g>
+</svg>
