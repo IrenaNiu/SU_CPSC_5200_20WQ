@@ -62,14 +62,15 @@ As a result of that we will not (at this time) have a textbook. I will recommend
 - [x] 20-Feb: **Individual assignment 3 available**
 
 **Week 8**
-- [ ] 25-Feb: Data-driven software design / project discussion(s)
-- [ ] 27-Feb: **2nd team paper due**
-- [ ] 27-Feb: TNG Design session
+- [x] 25-Feb: Data-driven software design / project discussion(s)
+- [x] 27-Feb: **2nd team paper due**
+- [x] 27-Feb: TNG Design session
 
 **Week 9**
-- [ ] 03-Mar: Anti-patterns and Topics in Software Architecture and Design
-- [ ] 05-Mar: Pragmatic Programming
+- [x] 03-Mar: Anti-patterns and Topics in Software Architecture and Design
+- [x] 03-Mar: Pragmatic Programming
 - [ ] 05-Mar: **Final team paper due**
+- [ ] 05-Mar: Team demo day assignments made
 
 **Week 10**
 - [ ] 10-Mar: **In-class team presentations and demonstrations**
