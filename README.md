@@ -95,7 +95,7 @@ As a result of that we will not (at this time) have a textbook. I will recommend
 - [ ] 12-Mar: **In-class team presentations and demonstrations**
   - Team 9: Niu; Dong; Fan; Li - 6:00 pm
   - Team 10: Croneberger; Tamboli; Zheng; Zainab - 6:15 pm
-- [ ] 12-Mar: **Individal assignment 3 due**
+- [ ] 12-Mar: **In-class individual presentations and demonstrations**
   - Nusitchaiyakan - 6:30
   - Croneberger - 6:40
   - Poonpiriyasup - 6:50
@@ -108,12 +108,12 @@ As a result of that we will not (at this time) have a textbook. I will recommend
   - Vadnere - 8:00
   - Deng - 8:10
   - Mhatre - 8:20
+- [ ] 12-Mar: **Individal assignment 3 due**
+- [ ] 12-Mar: **Final exam available**
 
 **Week 11**
 
-- [ ] 17-Mar: Course and final exam review
-- [ ] 17-Mar: **In-class individual presentations and demonstrations**
-- [ ] 19-Mar: **Final exam due**
+- [ ] 17-Mar: **Final exam due by 6pm, late exams will not be accepted**
 
 ## List of topics / schedule (tentative)
 
