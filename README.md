@@ -92,10 +92,11 @@ As a result of that we will not (at this time) have a textbook. I will recommend
   - Team 6: Yang; Nunn; Miller; Jeong - 7:15 pm
   - Team 7: Zhao; Qiu; Deng; Wang, Y - 7:30 pm
   - Team 8: Downing; Larson; Peterson - 7:45 pm
-- [ ] 12-Mar: **In-class team presentations and demonstrations**
-  - Team 9: Niu; Dong; Fan; Li - 6:00 pm
-  - Team 10: Croneberger; Tamboli; Zheng; Zainab - 6:15 pm
+  - Team 9: Niu; Dong; Fan; Li - 8:00 pm
+  - Team 10: Croneberger; Tamboli; Zheng; Zainab - 8:15 pm
 - [ ] 12-Mar: **In-class individual presentations and demonstrations**
+  - Dandane - 6:10
+  - Dsouza - 6:20
   - Nusitchaiyakan - 6:30
   - Croneberger - 6:40
   - Poonpiriyasup - 6:50
