@@ -95,6 +95,7 @@ As a result of that we will not (at this time) have a textbook. I will recommend
   - Team 9: Niu; Dong; Fan; Li - 8:00 pm
   - Team 10: Croneberger; Tamboli; Zheng; Zainab - 8:15 pm
 - [ ] 12-Mar: **In-class individual presentations and demonstrations**
+  - Wang, Y - 6:10
   - Dandane - 6:10
   - Dsouza - 6:20
   - Nusitchaiyakan - 6:30
