@@ -84,18 +84,18 @@ As a result of that we will not (at this time) have a textbook. I will recommend
 **Week 10**
 
 - [ ] 10-Mar: **In-class team presentations and demonstrations**
-  - Team 1: Bhavsar; Dandane; Lam - 6:00 pm
-  - Team 2: Nguyen, M; Nguyen, N; Poonpiriyasup; Usman - 6:15 pm
-  - Team 3: Jones; Nusitchaiyakan; De Almeida Voto; Encina - 6:30 pm
-  - Team 4: Wang, V; Loh; Joseph - 6:45 pm
-  - Team 5: Dsouza; Mhatre; Vadnere - 7:00 pm
-  - Team 6: Yang; Nunn; Miller; Jeong - 7:15 pm
-  - Team 7: Zhao; Qiu; Deng; Wang, Y - 7:30 pm
-  - Team 8: Downing; Larson; Peterson - 7:45 pm
-  - Team 9: Niu; Dong; Fan; Li - 8:00 pm
-  - Team 10: Croneberger; Tamboli; Zheng; Zainab - 8:15 pm
+  - Team 1: Bhavsar; Dandane; Lam - 6:05 pm
+  - Team 2: Nguyen, M; Nguyen, N; Poonpiriyasup; Usman - 6:20 pm
+  - Team 3: Jones; Nusitchaiyakan; De Almeida Voto; Encina - 6:35 pm
+  - Team 4: Wang, V; Loh; Joseph - 6:50 pm
+  - Team 5: Dsouza; Mhatre; Vadnere - 7:05 pm
+  - Team 6: Yang; Nunn; Miller; Jeong - 7:20 pm
+  - Team 7: Zhao; Qiu; Deng; Wang, Y - 7:35 pm
+  - Team 8: Downing; Larson; Peterson - 7:50 pm
+  - Team 9: Niu; Dong; Fan; Li - 8:05 pm
+  - Team 10: Croneberger; Tamboli; Zheng; Zainab - 8:20 pm
 - [ ] 12-Mar: **In-class individual presentations and demonstrations**
-  - Wang, Y - 6:10
+  - Wang, Y - 6:00
   - Dandane - 6:10
   - Dsouza - 6:20
   - Nusitchaiyakan - 6:30
