@@ -35,6 +35,6 @@ The above specification is left intentionally ambiguous and open-ended. I have d
 
 ## Due date and other notes
 
-All materials are due to me by the evening of **08-Mar** (which is a Sunday). 
+All materials are due to me by the evening of **12-Mar**.
 
 You have the opportunity to earn up to an _additional 10 points of extra credit_ by presenting your solution in class on 17-Mar. I will ask that you present your architecture, any interesting or difficult design details, your API, and, time permitting, do a **short demonstration of your application**. The breakdown is the in-class presentation and Q&A session is worth 5 points and a working solution that you can demo is worth an additional 5 points.

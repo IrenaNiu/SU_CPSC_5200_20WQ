@@ -25,36 +25,43 @@ As a result of that we will not (at this time) have a textbook. I will recommend
 ## Important Dates
 
 **Week 1**
+
 - [x] 07-Jan: **First day of class**
 - [x] 07-Jan: Introduction to Software Architecture and Design
 - [x] 09-Jan: REST as an architectural style
 
 **Week 2**
+
 - [x] 14-Jan: **no class, weather-related**
 - [x] 16-Jan: Software Architecture, An opinionated approach
 
 **Week 3**
+
 - [x] 21-Jan: Introduction to UML (https://seattleu.zoom.us/j/289933070)
 - [x] 23-Jan: Agile software architecture I
 - [x] 23-Jan: **Individual assignment 1 due**
 
 **Week 4**
+
 - [x] 28-Jan: Agile software architecture II
 - [x] 28-Jan: API Design
 - [x] 28-Jan: **Team project introduction**
 - [x] 30-Jan: Architecture patterns and styles
 
 **Week 5**
+
 - [x] 04-Feb: Economics of software architecture (_guest lecture_)
 - [x] 06-Feb: Non-functional requirements (_guest lecture_)
 
 **Week 6**
+
 - [x] 11-Feb: Documenting software architecture and design
 - [x] 11-Feb: **Individual assignment 2 available**
 - [x] 13-Feb: Distributed computing
 - [x] 13-Feb: **In-class mid-term exam**
 
 **Week 7**
+
 - [x] 18-Feb: Fowler Analysis Patterns
 - [x] 20-Feb: GoF Design Patterns
 - [x] 20-Feb: **Team project arch proposal due**
@@ -62,24 +69,53 @@ As a result of that we will not (at this time) have a textbook. I will recommend
 - [x] 20-Feb: **Individual assignment 3 available**
 
 **Week 8**
-- [ ] 25-Feb: Data-driven software design / project discussion(s)
-- [ ] 27-Feb: **2nd team paper due**
-- [ ] 27-Feb: TNG Design session
+
+- [x] 25-Feb: Data-driven software design / project discussion(s)
+- [x] 27-Feb: **2nd team paper due**
+- [x] 27-Feb: TNG Design session
 
 **Week 9**
-- [ ] 03-Mar: Anti-patterns and Topics in Software Architecture and Design
-- [ ] 05-Mar: Pragmatic Programming
-- [ ] 05-Mar: **Final team paper due**
+
+- [x] 03-Mar: Anti-patterns and Topics in Software Architecture and Design
+- [x] 03-Mar: Pragmatic Programming
+- [x] 05-Mar: **Final team paper due**
+- [x] 05-Mar: Team demo day assignments made
 
 **Week 10**
+
 - [ ] 10-Mar: **In-class team presentations and demonstrations**
-- [ ] 12-Mar: **In-class team presentations and demonstrations**
+  - Team 1: Bhavsar; Dandane; Lam - 6:05 pm
+  - Team 2: Nguyen, M; Nguyen, N; Poonpiriyasup; Usman - 6:20 pm
+  - Team 3: Jones; Nusitchaiyakan; De Almeida Voto; Encina - 6:35 pm
+  - Team 4: Wang, V; Loh; Joseph - 6:50 pm
+  - Team 5: Dsouza; Mhatre; Vadnere - 7:05 pm
+  - Team 6: Yang; Nunn; Miller; Jeong - 7:20 pm
+  - Team 7: Zhao; Qiu; Deng; Wang, Y - 7:35 pm
+  - Team 8: Downing; Larson; Peterson - 7:50 pm
+  - Team 9: Niu; Dong; Fan; Li - 8:05 pm
+  - Team 10: Croneberger; Tamboli; Zheng; Zainab - 8:20 pm
+- [ ] 12-Mar: **In-class individual presentations and demonstrations**
+  - Wang, Y - 6:00
+  - Dandane - 6:10
+  - Dsouza - 6:20
+  - Nusitchaiyakan - 6:30
+  - Croneberger - 6:40
+  - Poonpiriyasup - 6:50
+  - Wang, V - 7:00
+  - Zhao - 7:10
+  - Ding - 7:20
+  - Qiu - 7:30
+  - Miller - 7:40
+  - Loh - 7:50
+  - Vadnere - 8:00
+  - Deng - 8:10
+  - Mhatre - 8:20
 - [ ] 12-Mar: **Individal assignment 3 due**
+- [ ] 12-Mar: **Final exam available**
 
 **Week 11**
-- [ ] 17-Mar: Course and final exam review
-- [ ] 17-Mar: **In-class individual presentations and demonstrations**
-- [ ] 19-Mar: **Final exam due**
+
+- [ ] 17-Mar: **Final exam due by 6pm, late exams will not be accepted**
 
 ## List of topics / schedule (tentative)
 
